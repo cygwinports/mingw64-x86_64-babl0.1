@@ -2,7 +2,7 @@ CROSS_HOST="x86_64-w64-mingw32"
 inherit cross
 
 NAME="mingw64-x86_64-babl0.1"
-VERSION=0.1.10
+VERSION=0.1.18
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="Any-to-any pixel format conversion library for Win64 toolchain"
@@ -13,7 +13,6 @@ facilitates creation of new and uncommon ones."
 HOMEPAGE="http://www.gegl.org/babl/"
 SRC_URI="ftp://ftp.gimp.org/pub/babl/${VERSION%.*}/babl-${VERSION}.tar.bz2"
 SRC_DIR="babl-${VERSION}"
-PATCH_URI="0.1.10-values_h.patch"
 
 CYGCONF_ARGS="--disable-introspection"
 
