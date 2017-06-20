@@ -2,7 +2,7 @@ CROSS_HOST="x86_64-w64-mingw32"
 inherit cross
 
 NAME="mingw64-x86_64-babl0.1"
-VERSION=0.1.24
+VERSION=0.1.28
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="Any-to-any pixel format conversion library for Win64 toolchain"
